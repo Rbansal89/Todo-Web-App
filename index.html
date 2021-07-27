@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo App</title>
+</head>
+<body>
+    <h1>Todos</h1>
+    <h2>Your tasks!</h2>
+    <input id="search-text" type="text" , placeholder="Search Notes">
+    <label>
+        <input type="checkbox" id="hide-show-completed">
+        Hide Completed
+    </label>
+    <div id="todos"></div>
+    <form id="new-todo">
+        <input type="text" placeholder="Add Todo" name="addTodo">
+        <button>Submit</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+    <script src="generate-uuid.js"></script>
+    <script src="todo-functions.js"></script>
+    <script src="todo-app.js"></script>
+</body>
+</html>
